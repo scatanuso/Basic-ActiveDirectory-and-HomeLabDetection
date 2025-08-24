@@ -3,11 +3,11 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This project consists of demonstrating the creation of a simple Active Directory Domain Environment using Oracle Virtual Box. In addition, this project also showcases the use of Splunk, Sysmon, and Atomic Red Team (ATR) to generate telemetry on an Ubuntu Server running Splunk. This lab will simulate a real world attack by using an attack machine on the network running Kali Linux that will bruteforce a password from a user account on the Active Directory Domain environment. The goal of this project is to demonstrate thorough comprehension of how to configure Windows Machine, Splunk, and Active Directory while also emphaszing its role in a corporate network. In addition, demonstrating how a potential threat actor may compromise a coporate host system on the network, gaining access through the use of a password attack. The Video Demonstration will showcase the entire creation of the Active Directory Environment while the Program Walkthrough will only demonstrate the bruteforce attack on the newly created user and analyze the telemetry generated from the attack on Splunk.
+This project consists of demonstrating the creation of a simple Active Directory Domain Environment using Oracle Virtual Box. In addition, this project also showcases the use of Splunk, Sysmon, and Atomic Red Team (ATR) to generate telemetry on an Ubuntu Server running Splunk. This lab will simulate a real world attack by using an attack machine on the network running Kali Linux that will bruteforce a password from a user account on the Active Directory Domain environment. The goal of this project is to demonstrate thorough comprehension of how to configure Windows Machine, Splunk, and Active Directory while also emphaszing its role in a corporate network. In addition, demonstrating how a potential threat actor may compromise a coporate host system on the network, gaining access through the use of a password attack and stealing credentials.
 <br />
 
 
-<h2>Operating Systems, Software, Tools, Utilities, and Languages Used</h2>
+<h2>Tools, Utilities, and Languages Used</h2>
 
 - <b>PowerShell</b> 
 - <b>Splunk</b>
@@ -28,8 +28,28 @@ HomeLab Topology: <br/>
 <img src="https://i.imgur.com/Yl5vBCb.png" height="80%" width="80%" alt="Logical Topology"/>
 <br />
 <br />
-Creating a User on the Active Directory Domain Controller (ADDC) and assigning it to a group:  <br/>
-<img src="https://i.imgur.com/vTW0Itp.png" height="80%" width="80%" alt="New User"/>
+Installed and configured Splunk on Ubuntu Server and verified Splunk Service is actively running: <br/>
+<img src="https://i.imgur.com/Ayh00zk.png" height="80%" width="80%" alt="Splunk Service"/>
+<br />
+<br />
+Verified access to Splunk Web Interface er from Windows 10 Machine (Target-PC) and confirmed Splunk Server is working: <br/>
+<img src="https://i.imgur.com/1HluQbQ.png" height="80%" width="80%" alt="Splunk Web Interface"/>
+<br />
+<br />
+Logged into Splunk and configured a new index to receive the logs and events from Windows 10 Machine and Domain Controller: <br/>
+<img src="https://i.imgur.com/v6MKyDF.png" height="80%" width="80%" alt="Configuered index"/>
+<br />
+<br />
+Installed and configured Active Directory Domain Services on Windows 2022 Server and promoted server to domain Controller: <br/>
+<img src="https://i.imgur.com/wfBwrzN.png" height="80%" width="80%" alt="Active Directory Server"/>
+<br />
+<br />
+Creating Organizational Units and new user accounts:  <br/>
+<img src="https://i.imgur.com/V9uJu89.png" height="80%" width="80%" alt="Organizational Units and User Accounts"/>
+<br />
+<br />
+Logging into new user account on Windows 10 machine and verifying that it has joined the domain successfully: <br/>
+<img src="https://i.imgur.com/kutvOjK.png" height="80%" width="80%" alt="Logging into new user account"/>
 <br />
 <br />
 Using Kali Linux Attack Machine to perform brute force attack through the use of Crowbar on Host victim machine: <br/>
