@@ -25,7 +25,7 @@ This project consists of demonstrating the creation of a simple Active Directory
 
 <p align="center">
 HomeLab Topology: <br/>
-<img src="https://i.imgur.com/Yl5vBCb.png" height="80%" width="80%" alt="Logical Topology"/>
+<img src="https://i.imgur.com/WuVU9vN.png" height="80%" width="80%" alt="Logical Topology"/>
 <br />
 <br />
 Installed and configured Splunk on Ubuntu Server and verified Splunk Service is actively running: <br/>
