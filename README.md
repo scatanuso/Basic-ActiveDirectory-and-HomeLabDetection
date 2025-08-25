@@ -93,6 +93,14 @@ Performing deep researching and viewing additional information on Splunk about t
 <img src="https://i.imgur.com/8kAjOxa.png" height="80%" width="80%" alt="Splunk data and logs"/>
 <br />
 <br />
+Installing Atomic Red Team via Powershell to execute scripts for security testing: <br/>
+<img src="https://i.imgur.com/sbHU0Re.png" height="80%" width="80%" alt="Installing Atomic Red Team"/>
+<br />
+<br />
+Setting an exclusion on the entire C-Drive of the Windows 10 host machine to prevent Microsoft Defender from detecting and removing the installed atomic red team files: <br/>
+<img src="https://i.imgur.com/ja4Tf4Y.png" height="80%" width="80%" alt="Setting exclusion on C-Drive"/>
+<br />
+<br />
 Using Atomic Red Team to generate data/logs by creating a new local user account and testing the security of Windows 10 target machine:  <br/>
 <img src="https://i.imgur.com/kZxjlZY.png" height="80%" width="80%" alt="Atomic Red Team test"/>
 <br />
