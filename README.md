@@ -87,7 +87,9 @@ Analyzing the events received on Splunk. Performing networking monitoring and an
 <br />
 Identifying the source of the bruteforce attack on Splunk:  <br/>
 <img src="https://i.imgur.com/Fuz6RZK.png" height="80%" width="80%" alt="Splunk data and logs"/>
-Viewing additional information on Splunk regarding the brute-force attack: <br/>
+<br />
+<br />
+Performing deep researching and viewing additional information on Splunk about the brute-force attack: <br/>
 <img src="https://i.imgur.com/8kAjOxa.png" height="80%" width="80%" alt="Splunk data and logs"/>
 <br />
 <br />
