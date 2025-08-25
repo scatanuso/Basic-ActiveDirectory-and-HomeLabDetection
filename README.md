@@ -28,7 +28,15 @@ HomeLab Topology: <br/>
 <img src="https://i.imgur.com/WuVU9vN.png" height="80%" width="80%" alt="Logical Topology"/>
 <br />
 <br />
-Installed and configured Splunk on Ubuntu Server and verified Splunk Service is actively running: <br/>
+Created and configured virtual machines on VirtualBox: <br/>
+<img src="https://i.imgur.com/NctPrT9.png" height="80%" width="80%" alt="Virtual Machines"/>
+<br />
+<br />
+Installed Ubuntu server and modified the netplan configuration by statically assigning the IP address and other network parameters: <br/>
+<img src="https://i.imgur.com/g9jWBTA.png" height="80%" width="80%" alt="netplan configuration"/>
+<br />
+<br />
+Configured Splunk on Ubuntu Server and verified Splunk Service is actively running: <br/>
 <img src="https://i.imgur.com/Ayh00zk.png" height="80%" width="80%" alt="Splunk Service"/>
 <br />
 <br />
@@ -38,6 +46,15 @@ Verified access to Splunk Web Interface er from Windows 10 Machine (Target-PC) a
 <br />
 Logged into Splunk and configured a new index to receive the logs and events from Windows 10 Machine and Domain Controller: <br/>
 <img src="https://i.imgur.com/v6MKyDF.png" height="80%" width="80%" alt="Configuered index"/>
+<br />
+<br />
+Installed Splunk Universal Forwarder and Sysmon and verified both services are running on both Windows 10 machine and Windows 2022 Server: <br/>
+<img src="https://i.imgur.com/a3qPoMf.png" height="80%" width="80%" alt="Installed Splunk Universal Forwarder and Sysmon"/>
+<br />
+<br />
+Verified that the new configured Index is revceiving logs and events from both Windows 10 Target Machine and Windows 2022 Server (ADDC01): <br/>
+<img src="https://i.imgur.com/cOR7tGT.png" height="80%" width="80%" alt="Windows 10 and Server forwarding logs and events"/>
+<img src="https://i.imgur.com/0nE1fOU.png" height="80%" width="80%" alt="Receiving events and logs"/>
 <br />
 <br />
 Installed and configured Active Directory Domain Services on Windows 2022 Server and promoted server to domain Controller: <br/>
@@ -52,16 +69,26 @@ Logging into new user account on Windows 10 machine and verifying that it has jo
 <img src="https://i.imgur.com/kutvOjK.png" height="80%" width="80%" alt="Logging into new user account"/>
 <br />
 <br />
-Using Kali Linux Attack Machine to perform brute force attack through the use of Crowbar on Host victim machine: <br/>
-<img src="https://i.imgur.com/M6gn4C7.png" height="80%" width="80%" alt="Kali Linux Attack Machine"/>
+Verifying Hydra is installed onto Kali Linux Machine. Hydra is the password cracking tool that will be used to perform a brute-force attack against the target machine: <br/>
+<img src="https://i.imgur.com/wVCWQP4.png" height="80%" width="80%" alt="Installing Hydra"/>
 <br />
 <br />
-View the generated telemetry or Events through Splunk:  <br/>
-<img src="https://i.imgur.com/yEfon2w.png" height="80%" width="80%" alt="Splunk"/>
+Performing reconnaissance on Target-PC using nmap from the attacker machine (Kali Linux): <br/>
+<img src="https://i.imgur.com/0HFYGek.png" height="80%" width="80%" alt="Using Nmap to perform network reconnassance"/>
+<br />
+<br />
+Using Kali Linux Attack Machine to perform brute-force attack using Hydra to exploit RDP service on Windows 10 host machine and steal credentials: <br/>
+<img src="https://i.imgur.com/c8MWWKK.png" height="80%" width="80%" alt="Launching attack"/>
+<br />
+<br />
+Analyzing the events received on Splunk. Performing networking monitoring and analysis:  <br/>
+<img src="https://i.imgur.com/2SBxY5L.png" height="80%" width="80%" alt="Splunk"/>
 <br />
 <br />
 Identifying the source of the bruteforce attack on Splunk:  <br/>
-<img src="https://i.imgur.com/nx6sLG9.png" height="80%" width="80%" alt="Splunk data and logs"/>
+<img src="https://i.imgur.com/Fuz6RZK.png" height="80%" width="80%" alt="Splunk data and logs"/>
+Viewing additional information on Splunk regarding the brute-force attack: <br/>
+<img src="https://i.imgur.com/8kAjOxa.png" height="80%" width="80%" alt="Splunk data and logs"/>
 <br />
 <br />
 Using Atomic Red Team to generate data/logs by creating a new local user account and testing the security of Windows 10 target machine:  <br/>
