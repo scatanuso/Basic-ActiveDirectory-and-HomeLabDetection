@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab Detection</h1>
+<h1>Active Directory Home Lab Detection + Brute-force attack simulation</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
