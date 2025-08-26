@@ -94,19 +94,24 @@ Performing deep researching and viewing additional information on Splunk about t
 <br />
 <br />
 Installing Atomic Red Team via Powershell to execute scripts for security testing: <br/>
-<img src="https://i.imgur.com/sbHU0Re.png" height="80%" width="80%" alt="Installing Atomic Red Team"/>
+<img src="https://i.imgur.com/Isv0nee.png" height="80%" width="80%" alt="Installing Atomic Red Team"/>
 <br />
 <br />
 Setting an exclusion on the entire C-Drive of the Windows 10 host machine to prevent Microsoft Defender from detecting and removing the installed atomic red team files: <br/>
 <img src="https://i.imgur.com/ja4Tf4Y.png" height="80%" width="80%" alt="Setting exclusion on C-Drive"/>
 <br />
 <br />
-Using Atomic Red Team to generate data/logs by creating a new local user account and testing the security of Windows 10 target machine:  <br/>
-<img src="https://i.imgur.com/kZxjlZY.png" height="80%" width="80%" alt="Atomic Red Team test"/>
+Using Atomic Red Team to generate data/logs by creating a new local user account and testing the security of Windows 10 target machine. T1110.001 is a script brute-force attack:  <br/>
+<img src="https://i.imgur.com/JCgKADe.png" height="80%" width="80%" alt="Executing scripts"/>
 <br />
 <br />
-Observe the NewLocalUser account on Splunk:  <br/>
-<img src="https://i.imgur.com/pMs68St.png" height="80%" width="80%" alt="New Local User"/>
+Executing script to create a New Local Account on the network. T1136.001 is a script that creates a new LocalUserAccount:  <br/>
+<img src="https://i.imgur.com/QA6igfi.png" height="80%" width="80%" alt="Creating a new local user account"/>
+<img src="https://i.imgur.com/InyuARc.png" height="80%" width="80%" alt="Creating a new local user account"/>
+<br />
+<br />
+Analyzing the events recorded from Splunk to identify the new local account: <br/>
+<img src="https://i.imgur.com/qUneS2I.png" height="80%" width="80%" alt="New Local User"/>
 </p>
 
 <!--
