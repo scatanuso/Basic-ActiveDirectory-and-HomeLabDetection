@@ -1,6 +1,6 @@
 <h1>Active Directory Home Lab Detection + Brute-force attack simulation</h1>
 
- ### [YouTube Demonstration](URL LINK TO VIDEO)
+ ### [YouTube Demonstration](https://youtu.be/8qV0Fj-ZVko)
 
 <h2>Description</h2>
 This project consists of demonstrating the creation of a simple Active Directory Domain Environment using Oracle Virtual Box. In addition, this project also showcases the use of Splunk, Sysmon, and Atomic Red Team (ATR) to generate telemetry on an Ubuntu Server running Splunk. This lab will simulate a real world attack by using an attack machine on the network running Kali Linux that will bruteforce a password from a user account on the Active Directory Domain environment. The goal of this project is to simulate a corporate IT environment and gain hands on experience with Windows server administration. This project also demonstrates threat detection capabilities through the practual use of Splunk collecting logs and events from the Active Directory server and Windows 10 host machine. In addition, demonstrating how a potential threat actor may compromise a coporate host system on the network, gaining access through the use of a password attack and stealing credentials.
